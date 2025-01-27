@@ -896,7 +896,7 @@ button.btn-secondary:hover {
             left: 78%;
             transform: translate(-50%, -50%);
             font-family: 'Arial', sans-serif;
-            font-size: 40px;
+            font-size: 20px;
             text-shadow: 2px 2px 5px rgba(247, 245, 245, 0.7);
             color: transparent;
             padding: 20px;
@@ -973,7 +973,7 @@ button.btn-secondary:hover {
             left:10%;
             transform: translate(-50%, -50%);
             font-family: 'Arial', sans-serif;
-            font-size: 30px;
+            font-size: 80px;
             text-shadow: 2px 2px 5px rgba(248, 247, 247, 0.7);
             color: transparent;
             padding: 20px;
@@ -984,10 +984,10 @@ button.btn-secondary:hover {
             text-align: left;
             position: absolute;
             top: 12%;
-            left:80%;
+            left:85%;
             transform: translate(-50%, -50%);
             font-family: 'Arial', sans-serif;
-            font-size: 30px;
+            font-size: 80px;
             text-shadow: 2px 2px 5px rgba(248, 247, 247, 0.7);
             color: transparent;
             padding: 20px;
@@ -998,11 +998,11 @@ button.btn-secondary:hover {
     
             text-align: left;
             position: absolute;
-            top: 38%;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
             font-family: 'Arial', sans-serif;
-            font-size: 30px;
+            font-size: 80px;
             text-shadow: 2px 2px 5px rgba(247, 245, 245, 0.7);
             color: transparent;
             padding: 20px;
