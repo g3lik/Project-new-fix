@@ -224,7 +224,7 @@ input:checked + .slider:before {
     font-weight: bold;  
     text-align: center;  
     color: #fff;  
-    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  /* Gradient background */
+    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  
     padding:  30px;  
     text-transform: uppercase;  
     position: relative;
@@ -383,7 +383,7 @@ button.btn-secondary:hover {
     font-weight: bold;  
     text-align: center;  
     color: #fff;  
-    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  /* Gradient background */
+    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  
     padding:  30px;  
     text-transform: uppercase;  
     position: relative;
@@ -486,7 +486,7 @@ button.btn-secondary:hover {
     font-weight: bold;  
     text-align: center;  
     color: #fff;  
-    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  /* Gradient background */
+    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  
     padding:  30px;  
     text-transform: uppercase;  
     position: relative;
@@ -494,8 +494,6 @@ button.btn-secondary:hover {
     z-index: 1;
     transition: all 0.3s ease;  
 }
-
-
 @media (max-width: 1024px) {
     .card {
         width: 45%;
@@ -509,28 +507,28 @@ button.btn-secondary:hover {
     .imgContainer {
         width: 500px; 
         height: auto;
-        margin-top: 3px; /* הוסף מרווח למעלה כדי להזיז את התמונה למטה */
+        margin-top: 3px; 
         transition: filter 0.3s ease;
         filter: blur(5px); 
     }
 
     .h3imgContainer {
-        margin-right: 80px;  /* אם תרצה להוסיף רווח בין האלמנטים */
+        margin-right: 80px;  
         font-size: 24px;
         color: #333;
-        margin-top: 300px;  /* אפשר להוסיף מרווח עליון אם צריך */
+        margin-top: 300px;  
     }
     
     .imgContainer:hover {
-        filter: blur(0);  /* ביטול אפקט הערפול בהחזקת העכבר */
+        filter: blur(0);  
     }
     
     .imgContainer:hover {
-        filter: blur(0);  /* ביטול אפקט הערפול בהחזקת העכבר */
+        filter: blur(0);  
     }
 
     .cardsContainer {
-        justify-content: center; /* Align cards to the center */
+        justify-content: center; 
     }
 
     .h5Container {
@@ -571,7 +569,6 @@ button.btn-secondary:hover {
     }
 
     .titleContainer3 {
-
         text-align: left;
         position: absolute;
         top: 38%;
@@ -589,11 +586,7 @@ button.btn-secondary:hover {
 
         font-size: 84px;
     }
-    
-    
-    
 }
-
 @media (max-width: 768px) {
     .card {
         width: 100%;
@@ -634,7 +627,7 @@ button.btn-secondary:hover {
         font-weight: bold;  
         text-align: center;  
         color: #fff;  
-        background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));  /* Gradient background */
+        background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));  
         padding:  30px;  
         text-transform: uppercase;  
         position: relative;
@@ -650,7 +643,7 @@ button.btn-secondary:hover {
             font-weight: bold;  
             text-align: center;  
             color: #fff;  
-            background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));  /* Gradient background */
+            background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));  
             padding:  30px;  
             text-transform: uppercase;  
             position: relative;
@@ -682,23 +675,18 @@ button.btn-secondary:hover {
 }
 
 @media (max-width: 480px) {
-
-    
     .card {
         width: 100%;
         margin: 5px 0;
     }
-
     .modal-content {
         padding: 10px;
         width: 95%;
     }
-
     .h5Container {
         font-size: 1.2rem;
         padding: 10px;
     }
-
     .titleContainer1, .titleContainer2, .titleContainer3 {
         font-size: 40px;
     }
@@ -707,7 +695,6 @@ button.btn-secondary:hover {
         font-size: 20px;
         padding: 10px;
     }
-
     .nav {
         display: flex;
         justify-content: center;
@@ -715,14 +702,13 @@ button.btn-secondary:hover {
         background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));
         padding: 10px;
     }
-
     .selectedCoinsContainer {
         font-family: 'Roboto', sans-serif;
         font-size: 2.5rem;  
         font-weight: bold;  
         text-align: center;  
         color: #fff;  
-        background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));  /* Gradient background */
+        background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));  
         padding:  30px;  
         text-transform: uppercase;  
         position: relative;
@@ -730,16 +716,13 @@ button.btn-secondary:hover {
         z-index: 1;
         transition: all 0.3s ease;  
     }
-
     .aboutHeader {
-
         display: flex;
         justify-content: center;
         align-items: center;
         background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));
         padding: 10px;
     }
-
     .selecth1Container {
         display: flex;
         justify-content: center;
@@ -750,14 +733,13 @@ button.btn-secondary:hover {
     .imgContainer {
         width: 500px; 
         height: auto;
-        margin-top: 3px; /* הוסף מרווח למעלה כדי להזיז את התמונה למטה */
+        margin-top: 3px; 
         transition: filter 0.3s ease;
         filter: blur(5px); 
     }
-
     .parallaxContainer {
         background-image: url(assets/images/1069999.jpg);
-        background-attachment: fixed; /* אפקט parallax */
+        background-attachment: fixed; 
         background-position: center;
         background-size: cover;
         min-height: 800px;
@@ -766,7 +748,6 @@ button.btn-secondary:hover {
         align-items: center;
         justify-content: center;
     }
-
     .titleContainer1 {
         text-align: left;
         position: absolute;
@@ -796,7 +777,6 @@ button.btn-secondary:hover {
     }
 
     .titleContainer3 {
-
         text-align: left;
         position: absolute;
         top: 38%;
@@ -809,45 +789,39 @@ button.btn-secondary:hover {
         padding: 20px;
         margin-bottom: 10px;
     }
-    
 }
-
-
-
-    @media (max-width: 375px) {
-        /* כאן תוכל להוסיף את השינויים שאתה רוצה */
-        
+  @media (max-width: 375px) {
         .card {
-            width: 100%; /* גרום לכרטיסים למלא את רוחב המסך */
-            margin: 5px 0; /* המרווח בין הכרטיסים יהיה רק אנכי */
+            width: 100%; 
+            margin: 5px 0; 
         }
     
         .card-img-top {
-            width: 30px; /* צמצום גודל התמונה */
+            width: 30px; 
             height: 30px;
         }
     
         .card-body h5 {
-            font-size: 1em; /* הקטנת גודל הטקסט */
+            font-size: 1em; 
         }
     
         .modal-content {
             padding: 10px;
-            width: 90%; /* להקטין את רוחב החלון המודאלי */
+            width: 90%; 
         }
     
         .h5Container {
-            font-size: 1.4rem; /* הקטנת גודל כותרת */
+            font-size: 1.4rem; 
             padding: 10px;
         }
     
         .h3Container {
-            font-size: 18px; /* הקטנת גודל כותרת */
+            font-size: 18px; 
             padding: 8px;
         }
     
         .titleContainer1, .titleContainer2, .titleContainer3 {
-            font-size: 30px; /* צמצום גודל הכותרות */
+            font-size: 30px; 
         }
     
         .image-container {
@@ -856,49 +830,48 @@ button.btn-secondary:hover {
         }
     
         .imgContainer {
-            width: 100%; /* התאמת רוחב התמונה לגודל המסך */
+            width: 100%; 
             height: auto;
             margin-top: 30px;
         }
     
         .cardsContainer {
-            justify-content: center; /* לסדר את הכרטיסים במרכז */
+            justify-content: center; 
         }
         .nav {
-            display: flex; /* מוודא שהאלמנטים יהיו בשורה */
-            justify-content: flex-start; /* מוודא שהאלמנטים מתחילים משמאל */
-            align-items: center; /* ממרכז את האלמנטים במרכז האנכי */
+            display: flex; 
+            justify-content: flex-start; 
+            align-items: center; 
             background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250));
             padding: 17px;
-            margin-left: 20px; /* תזוזה ימינה */
+            margin-left: 20px; 
         }
         
         .nav a {
-            margin: 0 10px; /* הוספת רווח קטן בין הקישורים, אם צריך */
+            margin: 0 10px; 
             text-decoration: none;
             color: white;
         }
         .aboutContainer {
-            display: flex; /* מוודא שהאלמנטים ב-aboutContainer יהיו גם הם בשורה */
-             /* מוודא שיסודרו בשורה עם רווחים */
-            align-items: center; /* ממרכז את האלמנטים במרכז האנכי */
+            display: flex; 
+             
+            align-items: center; 
             padding: 1px;
         }
-
         .search {
             display: flex;
-            justify-content: center;  /* ממרכז את התוכן בתוך ה-search */
-            width: 100%;  /* לוודא שבר החיפוש תופס את כל הרוחב */
-            max-width: 500px;  /* הגבלת הרוחב של הבר חיפוש אם צריך */
-            margin: 0 auto;  /* ממרכז את ה-search בתוך ה-nav */
+            justify-content: center;  
+            width: 100%; 
+            max-width: 500px;  
+            margin: 0 auto;  
         }
         .modal-content {
             background-color: white;
             padding: 2px;
             border-radius: 5px;
-            width: 100%;  /* גודל דינמי לפי רוחב המסך */
-            max-width: 700px;  /* הגבלה על הרוחב המרבי */
-            height: 100%;  /* גובה אוטומטי בהתאם לתוכן */
+            width: 100%;  
+            max-width: 700px;  
+            height: 100%;  
         }
         .titleContainer1 {
 
@@ -960,28 +933,28 @@ button.btn-secondary:hover {
         .imgContainer {
             width: 500px; 
             height: auto;
-            margin-top: 3px; /* הוסף מרווח למעלה כדי להזיז את התמונה למטה */
+            margin-top: 3px; 
             transition: filter 0.3s ease;
             filter: blur(5px); 
         }
     
         .h3imgContainer {
-            margin-right: 80px;  /* אם תרצה להוסיף רווח בין האלמנטים */
+            margin-right: 80px;  
             font-size: 24px;
             color: #333;
-            margin-top: 300px;  /* אפשר להוסיף מרווח עליון אם צריך */
+            margin-top: 300px;  
         }
         
         .imgContainer:hover {
-            filter: blur(0);  /* ביטול אפקט הערפול בהחזקת העכבר */
+            filter: blur(0);  
         }
         
         .imgContainer:hover {
-            filter: blur(0);  /* ביטול אפקט הערפול בהחזקת העכבר */
+            filter: blur(0);  
         }
     
         .cardsContainer {
-            justify-content: center; /* Align cards to the center */
+            justify-content: center; 
         }
     
         .h5Container {
@@ -1036,11 +1009,4 @@ button.btn-secondary:hover {
             margin-bottom: 10px;
         }
     
-        .about5Containe {
-    
-            font-size: 84px;
-        }
-        
-        
-    }    
-    
+    }
